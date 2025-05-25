@@ -1,5 +1,5 @@
 async function slaider() {
-    let slaider = "";
+
     let data = await fetch("https://negar1919.github.io/json-server/db.json");
     let res = await data.json();
     slaider = res.slaider.map((elem) => {
@@ -13,7 +13,7 @@ async function slaider() {
     document.querySelector(".swiper-wrapper").insertAdjacentHTML("afterbegin", slaider.join(""));
   }
 async function parent() {
-    let parent = "";
+  
     let data = await fetch("https://negar1919.github.io/json-server/db.json");
     let res = await data.json();
     parent = res.parent.map((elem) => {
@@ -31,7 +31,7 @@ container.innerHTML = "";
 container.insertAdjacentHTML("afterbegin", parent.join(""));
   }
 async function divch3() {
-    let divch3 = "";
+
     let data = await fetch("https://negar1919.github.io/json-server/db.json");
     let res = await data.json();
     divch3 = res.divch3.map((elem) => {
@@ -48,7 +48,7 @@ container.innerHTML = "";
 container.insertAdjacentHTML("afterbegin", divch3.join(""));
   }
 async function parent2() {
-    let parent2 = "";
+
     let data = await fetch("https://negar1919.github.io/json-server/db.json");
     let res = await data.json();
     parent2 = res.parent2.map((elem) => {

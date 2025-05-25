@@ -1,5 +1,5 @@
 async function red() {
-    let red = "";
+
     let data = await fetch("https://negar1919.github.io/json-server/db.json");
     let res = await data.json();
     red = res.red.map((elem) => {
@@ -14,7 +14,7 @@ container.innerHTML = "";
 container.insertAdjacentHTML("afterbegin", red.join(""));
   }
 async function cinama() {
-    let cinama = "";
+
     let data = await fetch("https://negar1919.github.io/json-server/db.json");
     let res = await data.json();
     cinama = res.cinama.map((elem) => {
@@ -31,7 +31,7 @@ container.innerHTML = "";
 container.insertAdjacentHTML("afterbegin", cinama.join(""));
   }
 async function ekran() {
-    let ekran = "";
+
     let data = await fetch("https://negar1919.github.io/json-server/db.json");
     let res = await data.json();
     ekran = res.ekran.map((elem) => {
@@ -50,7 +50,7 @@ container.innerHTML = "";
 container.insertAdjacentHTML("afterbegin", ekran.join(""));
   }
 async function twos() {
-    let twos = "";
+ 
     let data = await fetch("https://negar1919.github.io/json-server/db.json");
     let res = await data.json();
     twos = res.twos.map((elem) => {
@@ -90,7 +90,7 @@ container.innerHTML = "";
 container.insertAdjacentHTML("afterbegin", twos.join(""));
   }
 async function zood() {
-    let zood = "";
+
     let data = await fetch("https://negar1919.github.io/json-server/db.json");
     let res = await data.json();
     zood = res.zood.map((elem) => {

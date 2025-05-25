@@ -1,5 +1,5 @@
 async function one() {
-    let one = "";
+    
     let data = await fetch("https://negar1919.github.io/json-server/db.json");
     let res = await data.json();
     one = res.one.map((elem) => {
@@ -15,7 +15,7 @@ container.innerHTML = "";
 container.insertAdjacentHTML("afterbegin", one.join(""));
   }
 async function photo() {
-    let photo = "";
+  
     let data = await fetch("https://negar1919.github.io/json-server/db.json");
     let res = await data.json();
     photo = res.photo.map((elem) => {
@@ -30,7 +30,7 @@ container.insertAdjacentHTML("afterbegin", photo.join(""));
   }
 
   async function laptop() {
-    let laptop = "";
+  
     let data = await fetch("https://negar1919.github.io/json-server/db.json");
     let res = await data.json();
     laptop = res.laptop.map((elem) => {
@@ -50,7 +50,7 @@ container.innerHTML = "";
 container.insertAdjacentHTML("afterbegin", laptop.join(""));
   }
   async function ti() {
-    let ti = "";
+  
     let data = await fetch("https://negar1919.github.io/json-server/db.json");
     let res = await data.json();
     ti = res.ti.map((elem) => {
@@ -65,7 +65,7 @@ container.insertAdjacentHTML("afterbegin", ti.join(""));
 
   
   async function mobile() {
-    let mobile = "";
+    
     let data = await fetch("https://negar1919.github.io/json-server/db.json");
     let res = await data.json();
     mobile = res.mobile.map((elem) => {
@@ -85,7 +85,7 @@ container.innerHTML = "";
 container.insertAdjacentHTML("afterbegin", mobile.join(""));
   }
   async function ti1() {
-    let ti1 = "";
+   
     let data = await fetch("https://negar1919.github.io/json-server/db.json");
     let res = await data.json();
     ti1 = res.ti1.map((elem) => {
@@ -98,7 +98,7 @@ container.innerHTML = "";
 container.insertAdjacentHTML("afterbegin", ti1.join(""));
   }
   async function consol() {
-    let consol = "";
+    
     let data = await fetch("https://negar1919.github.io/json-server/db.json");
     let res = await data.json();
     consol = res.consol.map((elem) => {
@@ -118,7 +118,7 @@ container.innerHTML = "";
 container.insertAdjacentHTML("afterbegin", consol.join(""));
   }
   async function ti3() {
-    let ti3 = "";
+    
     let data = await fetch("https://negar1919.github.io/json-server/db.json");
     let res = await data.json();
     ti3 = res.ti3.map((elem) => {
@@ -131,7 +131,7 @@ container.innerHTML = "";
 container.insertAdjacentHTML("afterbegin", ti3.join(""));
   }
   async function buy1() {
-    let buy1 = "";
+    
     let data = await fetch("https://negar1919.github.io/json-server/db.json");
     let res = await data.json();
     buy1 = res.buy1.map((elem) => {

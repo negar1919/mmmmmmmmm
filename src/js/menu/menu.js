@@ -1,5 +1,5 @@
 async function menu() {
-    let menu = "";
+
     let data = await fetch("https://negar1919.github.io/json-server/db.json");
     let res = await data.json();
     menu = res.menu.map((elem,i) => {
@@ -27,7 +27,7 @@ async function menu() {
   }
   
   async function butnbut() {
-    let butnbut = "";
+    
     let data = await fetch("https://negar1919.github.io/json-server/db.json");
     let res = await data.json();
     butnbut = res.menuboton.map((elem) => {
@@ -45,7 +45,7 @@ async function menu() {
   }
   
   async function butnbut1() {
-    let butnbut1 = "";
+  
     let data = await fetch("https://negar1919.github.io/json-server/db.json");
     let res = await data.json();
     butnbut1 = res.menuboton1.map((elem) => {

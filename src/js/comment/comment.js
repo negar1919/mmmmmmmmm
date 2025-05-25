@@ -1,5 +1,5 @@
 async function member() {
-    let member = "";
+
     let data = await fetch("https://negar1919.github.io/json-server/db.json");
     let res = await data.json();
     member = res.member.map((elem) => {
@@ -15,7 +15,7 @@ container.innerHTML = "";
 container.insertAdjacentHTML("afterbegin", member.join(""));
   }
 async function all() {
-    let all = "";
+
     let data = await fetch("https://negar1919.github.io/json-server/db.json");
     let res = await data.json();
     all = res.all.map((elem) => {

@@ -1,7 +1,9 @@
 async function girl() {
-    let girl = "";
+
     let data = await fetch("https://negar1919.github.io/json-server/db.json");
     let res = await data.json();
+    console.log(res.girl);
+    
     girl = res.girl.map((elem) => {
       return `
                       <img src=${elem.src} alt="">
@@ -13,7 +15,7 @@ container.innerHTML = "";
 container.insertAdjacentHTML("afterbegin", girl.join(""));
   }
 async function donia() {
-    let donia = "";
+
     let data = await fetch("https://negar1919.github.io/json-server/db.json");
     let res = await data.json();
     donia = res.donia.map((elem) => {
@@ -29,7 +31,7 @@ container.innerHTML = "";
 container.insertAdjacentHTML("afterbegin", donia.join(""));
   }
 async function koodak() {
-    let koodak = "";
+ 
     let data = await fetch("https://negar1919.github.io/json-server/db.json");
     let res = await data.json();
     koodak = res.koodak.map((elem) => {
